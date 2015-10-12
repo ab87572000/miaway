@@ -1,7 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>陳敬燁的個人履歷</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
 <style>
 body {
     background: #000 url(https://kockmag.files.wordpress.com/2009/10/8e585-001-full1.jpg) center center fixed no-repeat;
@@ -9,11 +18,16 @@ body {
 	background-size: cover;
    
 }
+
 body {
     color: #000000;
 }
 
+
+
 h1{color:000000; text-align: center; font-family: impact;font-size:80px;}
+
+
 
 #aboutme{
   background: hsla(200, 30%, 50%, 0.3);
@@ -24,30 +38,100 @@ h1{color:000000; text-align: center; font-family: impact;font-size:80px;}
   height:500px;
   left:50%;
   top:50px;
-  
-font-family: verdana;  font-weight: bold;  font-size:50px;  color: #000000;
+  font-family: verdana;  font-weight: bold;  font-size:50px;  color: #000000;
 }
 
-h2{ color:000000; text-align: center; font-family: impact;font-size:80px;}
 
-#ability{ 
-  background-color: #fff; 
+#item{ 
+
   position:relative; 
   width:300px; 
-  height:100px;
-  left:50%;
-  top:500px;
+  height:120px;
+  left:45%;
+  top:300px;
   
-font-family: verdana;  font-weight: bold;  font-size:80px;  color: #000000;
+font-family: verdana;  font-weight: bold;  font-size:100px;  color: #07c4c8;text-align: center;
 }
+
+
+
+
+#ability1{ 
+   background: hsla(200, 20%, 80%, 0.3); 
+  position:absolute; 
+  width:200px; 
+  height:100px;
+  left:17.5%;
+  top:1500px;
+  
+font-family: impact;  font-weight: bold;  font-size:100px;  color: #000000;
+}
+
+
+
+#ability2{ 
+   background: hsla(200, 20%, 80%, 0.3); 
+  position:absolute; 
+  width:210px; 
+  height:100px;
+  left:45%;
+  top:1500px;
+  
+font-family: impact;  font-weight: bold;  font-size:100px;  color: #000000;
+}
+
+
+
+#ability3{ 
+   background: hsla(200, 20%, 80%, 0.3); 
+  position:absolute; 
+  width:300px; 
+  height:100px;
+  left:77.5%;
+  top:1500px;
+  
+font-family:impact;  font-weight: bold;  font-size:100px;  color: #000000;
+}
+
+
+
+
 img {
     position: absolute;
     left: 20%;
     top: 300px;
    
 }
+
+
+<!--bootstrap-->
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+h2{color:000000; text-align:left;font-family: impact;font-size:50px;
+
+}
+
+#annotation{
+ 
+  position:relative; 
+
+  left:0%;
+  top:0px;
+  
+font-family: verdana;  font-weight: bold;  font-size:50px;  color: #fff;
+}
+
 </style>
 </head>
+
+
+
+
 <body>
  <h1>MIAWAY's 履歷</h1>
 
@@ -60,16 +144,147 @@ img {
 <p>努力之事:學網頁設計、健身、讀書
 </div>
 
-<h2>技能2222</h2>
 
-<div id="ability"></div>
+<section id="ability">
 
 
-<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xft1/v/t1.0-9/11698730_845785005507004_8641312342513177482_n.jpg?oh=ea0c122dc0467b53dda76d90102901cb&oe=56873C61&__gda__=1452235499_180dd977baef3d020a43b4211e4dc5f0" width="300" height="400">
+  <div id="item">技能
+  </div>
+
+  <div id="ability1">
+  C++</div>
+
+  <div id="ability2">
+  Html</div>
+
+  <div id="ability3">PSpice</div>
+</section>
+
+
+
+
+<section id="experimence">
+
+
+  <div id="title">經歷
+  </div>
+
+  <div id="ability1">
+  C++</div>
+
+  <div id="ability2">
+  Html</div>
+
+  <div id="ability3">PSpice</div>
+</section>
+
+
+<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpt1/t31.0-8/p720x720/12052463_913035478750529_4683888833865083498_o.jpg"  class="img-circle" width="450" height="450">
+
+
+
+
+
+
+
+
+
+
+
+<!--Bootstrap!!!!!!!!!!!!!!!!!!!-->
+
+<div class="container">
+  
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="item1 active"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpt1/v/t34.0-12/12166028_893670910718413_1465005807_n.jpg?oh=623d777d18ee91f08d4190b658c242db&oe=561D082E&__gda__=1444820893_bd0e58ebd1b0065c82ea484cfec5375b" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h2>2014電機傳情</h2>
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://scontent-tpe1-1.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/10269584_700966189967999_1394070089375524143_n.jpg?oh=dbbab05693725d7045e76d9fead96064&oe=5684C892" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <p id=annotation>2014北友之夜開舞</p>
+       
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xft1/v/t34.0-12/12053375_893670077385163_1131849695_n.jpg?oh=3014538374fc88b94b7c63ee133742f6&oe=561E2537&__gda__=1444811783_7f51ab6807c09448f35a7ddcb1e0141f" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+           <p id=annotation>五系聯合耶舞</p>
+          
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/11269012_1125411404141545_1782085925668748841_n.jpg?oh=9038e2550a7f0750ab1b2b609cae14d3&oe=569DFAC7&__gda__=1452113740_07f6717628a1680bc3b4e10ea7ed91b7" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+           <p id=annotation>2015電機之夜開舞</p>
+          
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+    
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
 </body>
 
 
-##<##embed src="http://picosong.com/SSqS/" autostart=true hidden=true >
+
 
 
 </html>
