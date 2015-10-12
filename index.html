@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>陳敬燁的個人履歷</title>
-
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -10,8 +9,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-
-<style>
+  <style>
 body {
     background: #000 url(https://kockmag.files.wordpress.com/2009/10/8e585-001-full1.jpg) center center fixed no-repeat;
 	-moz-background-size: cover;
@@ -19,15 +17,7 @@ body {
    
 }
 
-body {
-    color: #000000;
-}
-
-
-
 h1{color:000000; text-align: center; font-family: impact;font-size:80px;}
-
-
 
 #aboutme{
   background: hsla(200, 30%, 50%, 0.3);
@@ -41,20 +31,28 @@ h1{color:000000; text-align: center; font-family: impact;font-size:80px;}
   font-family: verdana;  font-weight: bold;  font-size:50px;  color: #000000;
 }
 
-
 #item{ 
 
-  position:relative; 
+  position:absolute; 
   width:300px; 
   height:120px;
-  left:45%;
-  top:300px;
+  left:43%;
+  top:800px;
   
 font-family: verdana;  font-weight: bold;  font-size:100px;  color: #07c4c8;text-align: center;
 }
 
 
+#title{ 
 
+  position:absolute; 
+  width:300px; 
+  height:1200px;
+  left:43%;
+  top:1500px;
+  
+font-family: verdana;  font-weight: bold;  font-size:100px;  color: #07c4c8;text-align: center;
+}
 
 #ability1{ 
    background: hsla(200, 20%, 80%, 0.3); 
@@ -62,7 +60,7 @@ font-family: verdana;  font-weight: bold;  font-size:100px;  color: #07c4c8;text
   width:200px; 
   height:100px;
   left:17.5%;
-  top:1500px;
+  top:1300px;
   
 font-family: impact;  font-weight: bold;  font-size:100px;  color: #000000;
 }
@@ -75,7 +73,7 @@ font-family: impact;  font-weight: bold;  font-size:100px;  color: #000000;
   width:210px; 
   height:100px;
   left:45%;
-  top:1500px;
+  top:1300px;
   
 font-family: impact;  font-weight: bold;  font-size:100px;  color: #000000;
 }
@@ -88,7 +86,7 @@ font-family: impact;  font-weight: bold;  font-size:100px;  color: #000000;
   width:300px; 
   height:100px;
   left:77.5%;
-  top:1500px;
+  top:1300px;
   
 font-family:impact;  font-weight: bold;  font-size:100px;  color: #000000;
 }
@@ -96,20 +94,28 @@ font-family:impact;  font-weight: bold;  font-size:100px;  color: #000000;
 
 
 
-img {
-    position: absolute;
-    left: 20%;
-    top: 300px;
-   
+#aa{ 
+
+  position:absolute; 
+  
+  left:35%;
+  top:1800px;
+  
 }
 
 
-<!--bootstrap-->
 
- .carousel-inner > .item > img,
+
+
+
+
+
+  .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
+      
+  
   }
 
 h2{color:000000; text-align:left;font-family: impact;font-size:50px;
@@ -126,13 +132,25 @@ h2{color:000000; text-align:left;font-family: impact;font-size:50px;
 font-family: verdana;  font-weight: bold;  font-size:50px;  color: #fff;
 }
 
-</style>
+
+
+
+
+#img {
+    position: absolute;
+    left: 10%;
+    top: 300px;
+   
+}
+
+
+
+  </style>
 </head>
-
-
-
-
 <body>
+
+<div class="container">
+  <body>
  <h1>MIAWAY's 履歷</h1>
 
 <hr size="5" align="left" width="90%" color="#CDAA3F"><br>
@@ -143,7 +161,6 @@ font-family: verdana;  font-weight: bold;  font-size:50px;  color: #fff;
 <p>學歷:成功大學電機系
 <p>努力之事:學網頁設計、健身、讀書
 </div>
-
 
 <section id="ability">
 
@@ -166,8 +183,6 @@ font-family: verdana;  font-weight: bold;  font-size:50px;  color: #fff;
 <section id="experimence">
 
 
-  <div id="title">經歷
-  </div>
 
   <div id="ability1">
   C++</div>
@@ -179,24 +194,23 @@ font-family: verdana;  font-weight: bold;  font-size:50px;  color: #fff;
 </section>
 
 
-<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpt1/t31.0-8/p720x720/12052463_913035478750529_4683888833865083498_o.jpg"  class="img-circle" width="450" height="450">
 
 
 
 
-
-
-
-
-
-
-
-<!--Bootstrap!!!!!!!!!!!!!!!!!!!-->
 
 <div class="container">
+  <br>
+<div id="title">經歷
+ </div> 
+
   
+<div id="aa">
   <div id="myCarousel" class="carousel slide">
     <!-- Indicators -->
+
+
+
     <ol class="carousel-indicators">
       <li class="item1 active"></li>
       <li class="item2"></li>
@@ -205,6 +219,9 @@ font-family: verdana;  font-weight: bold;  font-size:50px;  color: #fff;
     </ol>
 
     <!-- Wrapper for slides -->
+
+
+
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
@@ -241,6 +258,7 @@ font-family: verdana;  font-weight: bold;  font-size:50px;  color: #fff;
   
     </div>
 
+
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -250,10 +268,22 @@ font-family: verdana;  font-weight: bold;  font-size:50px;  color: #fff;
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+
   </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+
 <script>
+
 $(document).ready(function(){
     // Activate Carousel
     $("#myCarousel").carousel();
@@ -281,10 +311,15 @@ $(document).ready(function(){
     });
 });
 </script>
+
+
+</div>
+
+<div id="img">
+<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xtl1/v/t34.0-12/12166192_913058635414880_291013600_n.jpg?oh=6354da47cf2d398e2587a4e7ca975840&oe=561DCEDD&__gda__=1444803484_84904d83cbb92ccfb9642979a5939c4f" class="img-circle" width="450" height="450">
+</div>
+
+
+
 </body>
-
-
-
-
-
 </html>
